@@ -1,0 +1,1344 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.navbar-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(227, 233, 233);
+}
+
+.image-1 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.list-1 {
+    display: flex;
+    gap: 20px;
+    margin-right: 5rem;
+}
+
+.list-1 li {
+    list-style: none;
+    color: silver;
+}
+
+.list-1 li a {
+    color: silver;
+    font-size: 2rem;
+}
+
+.cross {
+    margin-top: 1rem;
+    margin-right: 1rem;
+
+}
+
+.cross a {
+    color: silver;
+    font-size: 2rem;
+}
+
+.yellow-bar {
+    background-color: orange;
+    height: 52rem;
+    width: 15%;
+    position: absolute;
+    left: 13%;
+}
+
+.image-2 {
+    background-image: url("/images/image1.png");
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    height: 35rem;
+    position: absolute;
+    top: 4rem;
+    right: 7%;
+}
+
+.card-1 {
+    background-color: white;
+    color: black;
+    height: 25rem;
+    width: 40%;
+    padding: 5rem 3rem;
+    position: absolute;
+    left: 7%;
+    top: 22rem;
+}
+
+.heading-1 {
+    font-size: 3rem;
+}
+
+.heading-2 {
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+
+.div-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.div-3 {
+    height: 40rem;
+    width: 100%;
+    background-color: orange;
+    position: relative;
+    top: 80rem;
+}
+
+.card-2 {
+    height: 30rem;
+    width: 85%;
+    position: absolute;
+    top: -25%;
+    left: 7%;
+    right: 7%;
+    background-color: white;
+    color: black;
+}
+
+.heading-3 {
+    padding: 5rem;
+    font-size: 3em;
+    text-align: center;
+}
+
+.para-1 {
+    text-align: center;
+    margin-top: -4rem;
+    font-size: 1.2rem;
+}
+
+.button-1 {
+    background-color: orange;
+    color: white;
+    width: 25%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    display: block;
+    margin: 2rem auto 0;
+}
+
+.button-1:hover {
+    background-color: black;
+    color: white;
+    width: 25%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    display: block;
+    margin: 2rem auto 0;
+}
+
+/* question here */
+/* .button-1{
+    background-color: orange;
+    color: white;
+    width: 20%;
+    height:3rem;
+    border: none;
+    text-align: center;
+} */
+.div-4 {
+    position: relative;
+}
+
+.cards{
+    position: relative;
+    top: 80rem;
+    display: flex;
+    gap: 1.4rem;
+    justify-content: center;
+}
+
+.D1 {
+    position: relative;
+    top: -5rem;
+    height: 25rem;
+    width: 20%;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+}
+
+.D3 {
+    position: relative;
+    top: -5rem;
+    height: 25rem;
+    width: 20%;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+}
+
+.D2 {
+    position: relative;
+    top: -12rem;
+    height: 25rem;
+    width: 20%;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+}
+
+.D4 {
+    position: relative;
+    top: -12rem;
+    height: 25rem;
+    width: 20%;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+}
+
+.image-3 {
+    text-align: center;
+}
+
+.heading-4 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.para-2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.more {
+    text-align: center;
+}
+
+.more a {
+    color: black;
+}
+
+.textArea-1 {
+    position: absolute;
+    top: 108rem;
+    left: 7%;
+    right: 7%;
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.text1 {
+    width: 40%;
+}
+
+.text2 {
+    color: white;
+    width: 40%;
+}
+
+.heading-5 {
+    font-size: 3rem;
+    color: white;
+}
+
+.para-3 {
+    color: white;
+}
+
+.button-2 {
+    background-color: orange;
+    color: white;
+    width: 40%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.button-2:hover {
+    background-color: white;
+    color: black;
+    width: 40%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+
+/* div-5 */
+.div-5 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.heading-6 {
+    position: absolute;
+    top: 105rem;
+    left: 7%;
+    color: orange;
+    font-size: 5rem;
+}
+
+.list-2 {
+    position: absolute;
+    top: 115rem;
+    right: 40%;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.list-2 li {
+    padding-top: 2rem;
+}
+
+.card-3 {
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    top: 112rem;
+    right: 7%;
+    height: 28rem;
+    padding: 3rem;
+}
+
+.circle-1 {
+    position: absolute;
+    top: 20rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+/* div-6 */
+.div-6 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.yellow-bar2 {
+    background-color: orange;
+    height: 70rem;
+    width: 28%;
+    position: absolute;
+    left: 30%;
+    top: 143rem;
+}
+
+.image-4 {
+    background-image: url("/images/ewq3.jpg");
+    background-size: cover;
+    background-position: center;
+    transform-origin: center;
+    width: 55%;
+    height: 35rem;
+    position: absolute;
+    top: 158rem;
+    right: 7%;
+}
+
+/* Rotate anti-clockwise when AOS triggers */
+.image-4.aos-animate {
+    animation: rotateAnti 1.5s ease forwards;
+}
+
+@keyframes rotateAnti {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+        /* Full anti-clockwise rotation */
+    }
+}
+
+.design-agency {
+    background-color: white;
+    color: black;
+    height: 25rem;
+    width: 37%;
+    padding: 5rem 3rem;
+    position: absolute;
+    left: 16%;
+    top: 148rem;
+}
+
+.color-1 {
+    color: orange;
+}
+
+.marketing-branding {
+    position: absolute;
+    top: 177rem;
+    left: 7%;
+    height: 32rem;
+    width: 43%;
+    padding: 5rem 3rem;
+    background-color: white;
+    color: black;
+}
+
+.para-4 {
+    padding-top: 1rem;
+}
+
+.button-3 {
+    background-color: orange;
+    color: white;
+    width: 35%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.button-3:hover {
+    background-color: black;
+    color: white;
+    width: 35%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+/* div-7 */
+.div-7 {
+    position: relative;
+}
+
+.gray-circle-1 {
+    background-color: rgb(104, 103, 103);
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 222rem;
+    right: 22%;
+}
+
+.marketing {
+    position: absolute;
+    top: 223rem;
+    left: 7%;
+    color: orange;
+    font-size: 6rem;
+}
+
+.list-3 {
+    position: absolute;
+    top: 235rem;
+    right: 38%;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.list-3 li {
+    padding-top: 2rem;
+}
+
+.card-4 {
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    top: 233rem;
+    right: 7%;
+    height: 28rem;
+    padding: 3rem;
+}
+
+.para-5 {
+    padding-top: 1rem;
+}
+
+.circle-2 {
+    position: absolute;
+    top: 21rem;
+    right: 10%;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+/* div-8 */
+.div-8 {
+    position: relative;
+}
+
+.image-5 {
+    background-image: url("/images/project1.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 43rem;
+    position: absolute;
+    margin-top: 265rem;
+}
+
+.details {
+    position: absolute;
+    top: 273rem;
+    left: 7%;
+    height: 30rem;
+    width: 38%;
+    padding: 5rem 3rem;
+    background-color: rgba(53, 51, 51, 0.9);
+    color: white;
+}
+
+.button-4 {
+    background-color: orange;
+    color: white;
+    width: 40%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.button-4:hover {
+    background-color: white;
+    color: black;
+    width: 40%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+/* div-9 */
+.div-9 {
+    position: relative;
+}
+
+.gray-circle-2 {
+    background-color: rgb(104, 103, 103);
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 324rem;
+    left: 18%;
+}
+
+.brand {
+    position: absolute;
+    top: 313rem;
+    left: 7%;
+    color: orange;
+    font-size: 6rem;
+}
+
+.list-4 {
+    position: absolute;
+    top: 322rem;
+    right: 38%;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.list-4 li {
+    padding-top: 2rem;
+}
+
+.card-5 {
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    top: 320rem;
+    right: 7%;
+    height: 28rem;
+    padding: 3rem;
+}
+
+.circle-3 {
+    position: absolute;
+    top: 21rem;
+    right: 10%;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+/* div-10 */
+.div-10 {
+    position: relative;
+}
+
+.yellowbar-x {
+    position: absolute;
+    width: 100%;
+    height: 20rem;
+    background-color: orange;
+    top: 375rem;
+}
+
+.image-6 {
+    background-image: url("/images/srwer.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 65%;
+    height: 45rem;
+    position: absolute;
+    margin-top: 360rem;
+    left: 7%;
+}
+
+.ready {
+    font-size: 4rem;
+}
+
+.form-1 {
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 385rem;
+    width: 45%;
+    height: 30rem;
+    right: 7%;
+    padding: 4rem 2.5rem;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.input-1 input {
+    width: 100%;
+    padding: 1rem;
+    border-style: hidden;
+}
+
+.button-5 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    width: 30%;
+    height: 3rem;
+    border-radius: 2px;
+    border-style: none;
+}
+
+.button-5:hover {
+    position: absolute;
+    background-color: rgb(109, 107, 107);
+    color: white;
+    margin-top: 2rem;
+    width: 30%;
+    height: 3rem;
+    border-radius: 2px;
+    border-style: none;
+}
+
+.link {
+    color: black;
+    position: absolute;
+    top: 85%;
+    font-size: 1.5rem;
+}
+
+.link a {
+    color: black;
+}
+
+footer {
+    position: relative;
+    top: 415rem;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 255);
+    padding: 8rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.link2 {
+    color: white;
+}
+
+.link2 a {
+    color: rgb(75, 75, 184);
+}
+
+@media screen and (max-width: 600px) {
+    /* body {
+        overflow-x: hidden;
+        width:100%;
+        text-align: center;
+    } */
+
+    .navbar-1 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .list-1 li a {
+        color: silver;
+        font-size: 1rem;
+    }
+
+    .list-1 {
+        margin-top: 1.1rem;
+    }
+
+    .cross a {
+        color: silver;
+        font-size: 1rem;
+    }
+
+    .cross {
+        margin-top: 1rem;
+    }
+
+    .yellow-bar {
+        height: 60rem;
+        width: 50%;
+    }
+
+    .image-2 {
+        height: 25rem;
+        width: 75%;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+    .card-1 {
+        position: relative;
+        width: 75%;
+        height: 20rem;
+        font-size: -3rem;
+        padding: 0 1 0 1 rem;
+        top: 33rem;
+        margin-right: 2%;
+    }
+
+    .heading-1 {
+        font-size: 2rem;
+    }
+
+    .heading-2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .card-2 {
+        margin-top: -20rem;
+        position: relative;
+        margin-left: 4%;
+        width: 81.5%;
+        height: 30rem;
+    }
+
+    .heading-3 {
+        padding: 2rem;
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .para-1 {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .button-1 {
+        background-color: orange;
+        color: white;
+        width: 80%;
+        height: 3.5rem;
+        border: none;
+        border-radius: 2px;
+        text-align: center;
+        display: block;
+        margin: 2rem auto 0;
+    }
+
+    .button-1 :hover {
+        background-color: orange;
+        color: white;
+        width: 80%;
+        height: 3.5rem;
+        border: none;
+        border-radius: 2px;
+        text-align: center;
+        display: block;
+        margin: 2rem auto 0;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .D1 {
+        position: relative;
+        width: 80%;
+        left: 11%;
+        margin-top: -5rem;
+    }
+
+    .D3 {
+        position: relative;
+        width: 80%;
+        left: 11%;
+        margin-top: -5rem;
+    }
+
+    .D2 {
+        position: relative;
+        width: 80%;
+        left: 11%;
+        margin-top: 9rem;
+    }
+
+    .D4 {
+        position: relative;
+        width: 80%;
+        left: 11%;
+        margin-top: 9rem;
+    }
+
+    .heading-5 {
+        font-size: 2.3rem;
+    }
+
+    .textArea-1 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 72rem;
+        left: 11%;
+    }
+
+    .para-3 {
+        margin-top: -13rem;
+        text-align: justify;
+        padding-right: 20%;
+    }
+
+    .button-2 {
+        margin-top: 3rem;
+    }
+
+    /* div-5 */
+    .div-5 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .heading-6 {
+        position: absolute;
+        left: 5%;
+        margin-top: -25rem;
+        font-size: 3rem;
+        width: 80%;
+        text-align: center;
+    }
+
+    .list-2 {
+        position: absolute;
+        margin-top: -30rem;
+        text-align: center;
+        left: 3%;
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    .card-3 {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        height: 30rem;
+        right: 10%;
+    }
+
+    .circle-1 {
+        position: absolute;
+        top: 80%;
+    }
+
+    /* div-6 */
+    .div-6 {
+        position: relative;
+    }
+
+    .yellow-bar2 {
+        position: absolute;
+        text-align: center;
+        margin-top: 4rem;
+        width: 55%;
+        height: 85rem;
+        left: 15%;
+    }
+
+    .div-6 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .design-agency {
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        margin-top: 5rem;
+        height: 16rem;
+    }
+
+    .image-4 {
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        margin-top: 13rem;
+        height: 16rem;
+    }
+
+    .marketing-branding {
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        margin-top: 13rem;
+        height: 38rem;
+        padding: 3rem 1rem;
+    }
+
+    .button-3 {
+        width: 60%;
+    }
+
+    /* div-7 */
+    .div-7 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .gray-circle-1 {
+        position: absolute;
+        height: 15rem;
+        width: 15rem;
+        border-radius: 50%;
+        text-align: center;
+        margin-top: 13rem;
+        left: 15%;
+    }
+
+    .marketing {
+        position: absolute;
+        left: 8%;
+        margin-top: 14rem;
+        font-size: 2rem;
+        width: 80%;
+        text-align: center;
+    }
+
+    .list-3 {
+        position: absolute;
+        margin-top: 5rem;
+        text-align: center;
+        left: 3%;
+        font-size: 1.5rem;
+        width: 80%;
+        font-weight: bold;
+    }
+
+    .card-4 {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        height: 30rem;
+        right: 10%;
+        margin-top: 25rem;
+    }
+
+    .circle-2 {
+        position: absolute;
+        top: 80%;
+    }
+
+    /* div-8 */
+    .div-8 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .image-5 {
+        position: relative;
+        margin-top: 290rem;
+    }
+
+    .details {
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        margin-top: 25rem;
+        height: 32rem;
+        padding: 3rem 1rem;
+    }
+
+    .button-4 {
+        width: 60%;
+    }
+
+    /* div-9 */
+    .div-9 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -310rem;
+    }
+
+    .gray-circle-2 {
+        position: absolute;
+        height: 15rem;
+        width: 15rem;
+        border-radius: 50%;
+        text-align: center;
+        margin-top: -2rem;
+        left: 15%;
+    }
+
+    .brand {
+        position: absolute;
+        left: 10%;
+        margin-top: rem;
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    .list-4 {
+        position: absolute;
+        margin-top: -6rem;
+        text-align: center;
+        left: 3%;
+        font-size: 1.5rem;
+        width: 80%;
+        font-weight: bold;
+    }
+
+    .card-5 {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        height: 30rem;
+        right: 10%;
+        margin-top: 15rem;
+    }
+
+    .circle-3 {
+        position: absolute;
+        top: 80%;
+    }
+
+    /* div-10 */
+    .image-6 {
+        width: 70%;
+        position: absolute;
+        left: 10%;
+        margin-top: 370rem;
+        height: 16rem;
+    }
+
+    .ready {
+        font-size: 2rem;
+    }
+
+    .form-1 {
+        position: absolute;
+        right: 10%;
+        width: 80%;
+        height: 32rem;
+        margin-top: -2rem;
+    }
+
+    .button-5 {
+        width: 75%;
+    }
+
+    .link2 {
+        width: 80%;
+        position: absolute;
+        text-align: center;
+        margin-top: -2rem;
+    }
+}
+
+/* media query for tablet and laptop */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list-1 li a {
+        color: silver;
+        font-size: 1rem;
+    }
+
+    .list-1 {
+        margin-top: 1.1rem;
+    }
+
+    .cross a {
+        color: silver;
+        font-size: 1rem;
+    }
+
+    .cross {
+        margin-top: 1rem;
+    }
+
+    /* div-2 */
+    .yellow-bar {
+        height: 46rem;
+        width: 25%;
+    }
+
+    .image-2 {
+        height: 25rem;
+        width: 75%;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+    .card-1 {
+        position: relative;
+        width: 63%;
+        height: 20rem;
+        font-size: -3rem;
+        padding: 0 1 0 1 rem;
+        top: 23rem;
+        margin-right: 37%;
+
+    }
+
+    .heading-1 {
+        font-size: 2.5rem;
+    }
+
+    .heading-2 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    /* div-3 */
+    .div-3 {
+        margin-top: -35rem;
+    }
+
+    .card-2 {
+        height: 25rem;
+        margin-top: 2rem;
+    }
+
+    .heading-3 {
+        padding: 2rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .para-1 {
+        text-align: center;
+        padding-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .button-1 {
+        width: 30%;
+    }
+
+    .button-1 :hover {
+        width: 30%;
+    }
+
+    /* div-4 */
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .cards>div {
+        width: 40%;
+        box-sizing: border-box;
+    }
+
+    .heading-5 {
+        font-size: 2.5rem;
+        margin-left: 5%;
+    }
+
+    .textArea-1 {
+        position: relative;
+        top: 80rem;
+    }
+
+    .text-2 {
+        width: 50%;
+        margin-left: -18%;
+        margin-right: 14%;
+    }
+
+    .button-2 {
+        width: 50%;
+    }
+
+    /* div-5*/
+    .div-5 {
+        margin-top: -16rem;
+    }
+
+    .heading-6 {
+        margin-left: 1%;
+    }
+
+    .list-2 {
+        margin-right: 10%;
+    }
+
+    .card-3 {
+        width: 40%;
+        margin-right: 2%;
+        height: 32rem;
+    }
+
+    .circle-1 {
+        position: absolute;
+        top: 80%;
+    }
+
+    /* div-6 */
+    .div-6 {
+        margin-top: 25%;
+    }
+
+    .digital-marketing {
+        font-size: 2.5rem;
+    }
+
+    .branding {
+        font-size: 2.5rem;
+    }
+
+    .yellow-bar2 {
+        position: absolute;
+        width: 45%;
+        left: 20%;
+        height: 82rem;
+    }
+
+    .design-agency {
+        width: 60%;
+        height: 20rem;
+    }
+
+    .image-4 {
+        width: 80%;
+        text-align: center;
+        margin-right: 3%;
+        margin-top: 10%;
+    }
+
+    .marketing-branding {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+
+    /* div-7 */
+    .div-7 {
+        margin-top: 20%;
+    }
+
+    .marketing {
+        margin-left: 2%;
+    }
+
+    .list-3 {
+        margin-right: 15%;
+    }
+
+    .card-4 {
+        width: 40%;
+        margin-right: 4%;
+        height: 32rem;
+    }
+
+    .circle-2 {
+        position: absolute;
+        top: 80%;
+    }
+
+    /* div-8 */
+    .div-8 {
+        margin-top: 30%;
+    }
+
+    .details {
+        width: 60%;
+        margin-left: 3%;
+    }
+
+    /* div-9 */
+    .brand {
+        margin-left: 2%;
+    }
+
+    .list-4 {
+        margin-right: 10%;
+    }
+
+    .card-5 {
+        width: 40%;
+        margin-right: 4%;
+        height: 32rem;
+    }
+
+    .circle-3 {
+        position: absolute;
+        top: 80%;
+    }
+    /* div-10 */
+    .image-6{
+        margin-left: 3%;
+        height: 40rem;
+    }
+    .form-1{
+        width: 62%;
+        margin-right: 4%;
+        height: 35rem;
+    }
+    .button-5{
+        width: 80%;
+    }
+    /* footer */
+    footer{
+        margin-top: 40%;
+    }
+}
